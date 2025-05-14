@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4" style="color: #4CAF50;">Welcome to <strong>Agri-Energy Connect</strong></h1>
+
+    <p class="lead mt-4" style="color: #333;">
+        Your one-stop platform for sustainable farming, energy efficiency, and seamless collaboration.
+    </p>
+
+    <p style="color: #666;">
+        Join a growing network of farmers and employees working together to power the future of agriculture.
+        <br />
+        Register now or login to get started!
+    </p>
+
+    <div class="mt-4">
+        <!-- These point to the AccountController -->
+        <a class="btn btn-success btn-lg mx-2" asp-controller="Account" asp-action="Register">Register</a>
+        <a class="btn btn-outline-success btn-lg mx-2" asp-controller="Account" asp-action="Login">Login</a>
+    </div>
+
+    <div class="mt-5">
+        <small style="color: #aaa;">Built with ♥ using ASP.NET Core</small>
+    </div>
+</div>

@@ -1,0 +1,136 @@
+﻿@{
+    Layout = null;
+    var farmerName = ViewBag.FarmerName ?? "Farmer";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Farmer Dashboard - Agri-Energy Connect</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f8fb;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0056b3;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+            nav a {
+                color: white;
+                margin: 0 20px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        .dashboard {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+        }
+
+        .welcome {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .card {
+            flex: 1 1 30%;
+            background-color: #e9f2ff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+            .card h3 {
+                margin-top: 0;
+                color: #0056b3;
+            }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0056b3;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agri-Energy Connect</h1>
+        <p>Welcome to your personalized Farmer Dashboard</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a asp-controller="Market" asp-action="AllProducts">Marketplace</a>
+        <a asp-controller="Farmer" asp-action="MyProducts">My Products</a>
+        <a href="/Training/Farmer">Training</a>
+        <a href="/Forum/Farmer">Forum</a>
+        <a href="#">Collaboration</a>
+        <a href="/Login/Logout">Logout</a>
+    </nav>
+
+    <div class="dashboard">
+        <div class="welcome">Hello, @farmerName! 🌾</div>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>My Products</h3>
+                <p>View and manage your product listings.</p>
+                <a asp-controller="Farmer" asp-action="MyProducts" style="color: #007BFF;">Manage Products →</a>
+            </div>
+
+            <div class="card">
+                <h3>Training Resources</h3>
+                <p>Explore materials to enhance your green farming techniques.</p>
+                <a href="/Training/Farmer" style="color: #007BFF;">Go to Training →</a>
+            </div>
+
+            <div class="card">
+                <h3>Community Forum</h3>
+                <p>Share knowledge and ask questions in the farmer community.</p>
+                <a href="/Forum/Farmer" style="color: #007BFF;">Join the Discussion →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Agri-Energy Connect | Empowering Sustainable Farming
+    </div>
+
+</body>
+</html>
