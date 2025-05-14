@@ -11,16 +11,24 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Add Session support
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 // Add Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Account/Login"; 
-        options.AccessDeniedPath = "/Account/AccessDenied"; 
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30); 
+        options.LoginPath = "/Account/Login";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
     });
 
-// Add Authorization (roles, etc.)
+// Add Authorization
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
@@ -37,7 +45,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// Use authentication and authorization middleware
+// Enable Session before Authentication/Authorization
+app.UseSession();
+
 app.UseAuthentication();
 app.UseAuthorization();
 

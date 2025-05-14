@@ -1,13 +1,12 @@
 ﻿@{
     Layout = null;
-    var farmerName = ViewBag.FarmerName ?? "Farmer";
 }
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Farmer Dashboard - Agri-Energy Connect</title>
+    <title>Training - Farmer Dashboard</title>
     <style>
         body {
             margin: 0;
@@ -91,7 +90,7 @@
 
     <header>
         <h1>Agri-Energy Connect</h1>
-        <p>Welcome to your personalized Farmer Dashboard</p>
+        <p>Welcome to your Farmer Training Page</p>
     </header>
 
     <nav>
@@ -104,25 +103,25 @@
     </nav>
 
     <div class="dashboard">
-        <div class="welcome">Hello, @farmerName! 🌾</div>
+        <div class="welcome">Explore Educational Materials to Enhance Your Farming Techniques</div>
 
         <div class="card-container">
             <div class="card">
-                <h3>My Products</h3>
-                <p>View and manage your product listings.</p>
-                <a asp-controller="Farmer" asp-action="MyProducts" style="color: #007BFF;">Manage Products →</a>
+                <h3>Webinars</h3>
+                <p>Learn from experts in the field of sustainable farming through our series of webinars.</p>
+                <a href="#" style="color: #007BFF;">Join Webinars →</a>
             </div>
 
             <div class="card">
-                <h3>Training Resources</h3>
-                <p>Explore materials to enhance your green farming techniques.</p>
-                <a asp-controller="Dashboard" asp-action="Training" style="color: #007BFF;">Go To Training →</a>
+                <h3>PDF Materials</h3>
+                <p>Access downloadable PDFs for step-by-step guides and techniques in farming.</p>
+                <a href="#" style="color: #007BFF;">Download PDFs →</a>
             </div>
 
             <div class="card">
-                <h3>Community Forum</h3>
-                <p>Share knowledge and ask questions in the farmer community.</p>
-                <a href="/Forum/Farmer" style="color: #007BFF;">Join the Discussion →</a>
+                <h3>Video Tutorials</h3>
+                <p>Watch in-depth video tutorials covering various aspects of sustainable farming.</p>
+                <a href="#" style="color: #007BFF;">Watch Tutorials →</a>
             </div>
         </div>
     </div>

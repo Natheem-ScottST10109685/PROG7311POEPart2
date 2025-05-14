@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\views\\employee\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\views\\employee\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\views\\farmer\\myproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\views\\farmer\\myproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|c:\\users\\nathe\\source\\repos\\st10109685prog7311\\st10109685prog7311\\views\\dashboard\\employeedash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE46DAE-098E-418E-9EBE-DF4489D713E7}|ST10109685Prog7311\\ST10109685Prog7311.csproj|solutionrelative:st10109685prog7311\\views\\dashboard\\employeedash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MarketController.cs",
-              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Controllers\\MarketController.cs",
-              "RelativeDocumentMoniker": "ST10109685Prog7311\\Controllers\\MarketController.cs",
-              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Controllers\\MarketController.cs",
-              "RelativeToolTip": "ST10109685Prog7311\\Controllers\\MarketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:00:13.95Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ST10109685Prog7311\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ST10109685Prog7311\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T16:21:57.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Program.cs",
-              "RelativeDocumentMoniker": "ST10109685Prog7311\\Program.cs",
-              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Program.cs",
-              "RelativeToolTip": "ST10109685Prog7311\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:45:46.48Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FarmerController.cs",
-              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Controllers\\FarmerController.cs",
-              "RelativeDocumentMoniker": "ST10109685Prog7311\\Controllers\\FarmerController.cs",
-              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Controllers\\FarmerController.cs",
-              "RelativeToolTip": "ST10109685Prog7311\\Controllers\\FarmerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:28:13.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ST10109685Prog7311\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Models\\Product.cs",
-              "RelativeToolTip": "ST10109685Prog7311\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:26:44.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MyProducts.cshtml",
               "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Farmer\\MyProducts.cshtml",
               "RelativeDocumentMoniker": "ST10109685Prog7311\\Views\\Farmer\\MyProducts.cshtml",
               "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Farmer\\MyProducts.cshtml",
               "RelativeToolTip": "ST10109685Prog7311\\Views\\Farmer\\MyProducts.cshtml",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAAANQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAALoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T10:26:37.847Z",
+              "WhenOpened": "2025-05-14T16:18:00.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddFarmer.cshtml",
+              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Employee\\AddFarmer.cshtml",
+              "RelativeDocumentMoniker": "ST10109685Prog7311\\Views\\Employee\\AddFarmer.cshtml",
+              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Employee\\AddFarmer.cshtml",
+              "RelativeToolTip": "ST10109685Prog7311\\Views\\Employee\\AddFarmer.cshtml",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T16:07:56.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDash.cshtml",
+              "DocumentMoniker": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Dashboard\\EmployeeDash.cshtml",
+              "RelativeDocumentMoniker": "ST10109685Prog7311\\Views\\Dashboard\\EmployeeDash.cshtml",
+              "ToolTip": "C:\\Users\\nathe\\source\\repos\\ST10109685Prog7311\\ST10109685Prog7311\\Views\\Dashboard\\EmployeeDash.cshtml",
+              "RelativeToolTip": "ST10109685Prog7311\\Views\\Dashboard\\EmployeeDash.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAHkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T15:46:40.846Z",
               "EditorCaption": ""
             }
           ]

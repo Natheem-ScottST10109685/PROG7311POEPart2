@@ -107,10 +107,9 @@
     <nav>
         <a href="#">Home</a>
         <a asp-controller="Market" asp-action="AllProducts">Marketplace</a>
-        <a href="/Training/Employee">Training</a>
-        <a href="/Collaboration/Employee">Collaboration</a>
-        <a href="/Forum/Employee">Forum</a>
-        <a href="/Login/Logout">Logout</a>
+        <a asp-controller="DashBoard" asp-action="Training">Training</a>
+        <a asp-controller="DashBoard" asp-action="Collaboration">Collaboration</a>
+        <a asp-controller="Account" asp-action="Login">Logout</a>
     </nav>
 
     <div class="dashboard">
@@ -120,7 +119,7 @@
             <div class="card">
                 <h3>Add New Farmer</h3>
                 <p>Register a new farmer on the platform, giving them access to sustainable tools and markets.</p>
-                <a href="/Farmer/Add">Go to Add Farmer →</a>
+                <a asp-controller="Employee" asp-action="AddFarmer">Add Farmer →</a>
             </div>
 
             <div class="card">

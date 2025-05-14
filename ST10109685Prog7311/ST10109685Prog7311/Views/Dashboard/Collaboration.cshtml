@@ -1,13 +1,12 @@
 ﻿@{
     Layout = null;
-    var farmerName = ViewBag.FarmerName ?? "Farmer";
 }
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Farmer Dashboard - Agri-Energy Connect</title>
+    <title>Collaboration - Employee Dashboard</title>
     <style>
         body {
             margin: 0;
@@ -91,44 +90,37 @@
 
     <header>
         <h1>Agri-Energy Connect</h1>
-        <p>Welcome to your personalized Farmer Dashboard</p>
+        <p>Welcome to the Employee Collaboration Page</p>
     </header>
 
     <nav>
         <a href="#">Home</a>
         <a asp-controller="Market" asp-action="AllProducts">Marketplace</a>
-        <a asp-controller="Farmer" asp-action="MyProducts">My Products</a>
         <a asp-controller="DashBoard" asp-action="Training">Training</a>
         <a asp-controller="DashBoard" asp-action="Collaboration">Collaboration</a>
         <a asp-controller="Account" asp-action="Login">Logout</a>
     </nav>
 
     <div class="dashboard">
-        <div class="welcome">Hello, @farmerName! 🌾</div>
+        <div class="welcome">Collaboration Tools for Employees</div>
 
         <div class="card-container">
             <div class="card">
-                <h3>My Products</h3>
-                <p>View and manage your product listings.</p>
-                <a asp-controller="Farmer" asp-action="MyProducts" style="color: #007BFF;">Manage Products →</a>
+                <h3>Grant/Subsidy Information</h3>
+                <p>Learn about available grants and subsidies to support farmers and sustainable practices.</p>
+                <a href="#" style="color: #007BFF;">View Information →</a>
             </div>
 
             <div class="card">
-                <h3>Training Resources</h3>
-                <p>Explore materials to enhance your green farming techniques.</p>
-                <a asp-controller="Dashboard" asp-action="Training" style="color: #007BFF;">Go To Training →</a>
-            </div>
-
-            <div class="card">
-                <h3>Community Forum</h3>
-                <p>Share knowledge and ask questions in the farmer community.</p>
-                <a href="/Forum/Farmer" style="color: #007BFF;">Join the Discussion →</a>
+                <h3>Project Proposal Submission</h3>
+                <p>Submit your project proposals to secure funding and support for agricultural development.</p>
+                <a href="#" style="color: #007BFF;">Submit Proposal →</a>
             </div>
         </div>
     </div>
 
     <div class="footer">
-        &copy; 2025 Agri-Energy Connect | Empowering Sustainable Farming
+        &copy; 2025 Agri-Energy Connect | Empowering Sustainable Agriculture
     </div>
 
 </body>

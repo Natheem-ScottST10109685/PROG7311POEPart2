@@ -18,31 +18,6 @@ namespace ST10109685Prog7311.Controllers
             return View();
         }
 
-        public IActionResult ProductForm()
-        {
-            return View();
-        }
-
-        public IActionResult MarketPlace()
-        {
-            return View();
-        }
-
-        public IActionResult Training()
-        {
-            return View();
-        }
-
-        public IActionResult Collaboration()
-        {
-            return View();
-        }
-
-        public IActionResult Forum()
-        {
-            return View();
-        }
-
         public IActionResult Privacy()
         {
             return View();

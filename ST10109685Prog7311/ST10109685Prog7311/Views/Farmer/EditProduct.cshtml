@@ -117,7 +117,6 @@
         <h2>Edit Product Details</h2>
         <form asp-controller="Farmer" asp-action="EditProduct" method="post">
             <input type="hidden" asp-for="ProductId" />
-            <input type="hidden" asp-for="FarmerEmail" />
 
             <label asp-for="ProductName">Product Name</label>
             <input asp-for="ProductName" required />

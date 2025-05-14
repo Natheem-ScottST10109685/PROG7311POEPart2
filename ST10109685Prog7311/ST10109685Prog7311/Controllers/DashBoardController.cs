@@ -21,5 +21,14 @@ namespace ST10109685Prog7311.Controllers
         {
             return View();
         }
+        public IActionResult Training()
+        {
+            return View();
+        }
+
+        public IActionResult Collaboration()
+        {
+            return View();
+        }
     }
 }

@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using ST10109685Prog7311.Data;
 using ST10109685Prog7311.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Http;
+
 
 public class MarketController : Controller
 {
@@ -16,9 +18,7 @@ public class MarketController : Controller
     // GET: /Market/AllProducts
     public IActionResult AllProducts()
     {
-        var products = _context.Products
-            .Include(p => p.User)
-            .ToList();
+        var products = _context.Products.ToList();
 
         ViewBag.Username = HttpContext.Session.GetString("Username") ?? "User";
         ViewBag.Categories = _context.Products
@@ -32,9 +32,7 @@ public class MarketController : Controller
     // GET: /Market/ProductDetails/5
     public IActionResult ProductDetails(int id)
     {
-        var product = _context.Products
-            .Include(p => p.User)
-            .FirstOrDefault(p => p.ProductId == id);
+        var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
 
         if (product == null)
         {
@@ -48,9 +46,7 @@ public class MarketController : Controller
     // GET: /Market/FilterProducts?category=Solar
     public IActionResult FilterProducts(string category)
     {
-        var productsQuery = _context.Products
-            .Include(p => p.User)
-            .AsQueryable();
+        var productsQuery = _context.Products.AsQueryable();
 
         if (!string.IsNullOrEmpty(category) && category != "All")
         {

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace ST10109685Prog7311.Models
 {
     public class Product
@@ -22,12 +21,5 @@ namespace ST10109685Prog7311.Models
 
         [DataType(DataType.Date)]
         public DateTime? ProductionDate { get; set; }
-
-        [Required]
-        [EmailAddress]
-        [ForeignKey(nameof(User))]
-        public string FarmerEmail { get; set; }
-
-        public virtual User User { get; set; }
     }
 }
